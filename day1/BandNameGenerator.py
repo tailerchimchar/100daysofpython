@@ -1,5 +1,3 @@
-print('The length of your name is: ' + str(len(input('What is your name? '))))
-
 print('Welcome to the Band Name Generator')
 city_name = input('What is the name of the city you grew up in?\n')
 pet_name = input("What is your pet's name?\n")
