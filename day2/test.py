@@ -27,6 +27,7 @@ print(int(weight / (height * height)))
 # // is floor
 print(8 // 3 ) # returns 2
 print(round(8/3)) # returns 3
+print(round(8,3))
 
 # fstring is to combine other data types
 score = 0
@@ -47,4 +48,4 @@ days_left = years_left * 365
 months_left = years_left * 12
 weeks_left = years_left * 52
 
-print(f"You have {days_left} days, {weeks_left} weeks, and {months_left} months left.)
+print(f"You have {days_left} days, {weeks_left} weeks, and {months_left} months left.")
