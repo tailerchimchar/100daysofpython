@@ -1,0 +1,1 @@
+words_list = ["aardvark", "beekeeper", "titanic", "hippo", "sexy", "baby"]
