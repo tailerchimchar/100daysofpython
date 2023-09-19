@@ -25,10 +25,15 @@ user_answer_arr = user_answer.split()
 stage = 6
 print(hangman_art.stages[stage])
 guess = ''
-
+guessed_letters = []
 
 while hangman_mechanics.game_not_won(user_answer, answer) and stage > 0:
   guess = input("What letter would you like to guess? \n").lower()
+  if guess in guessed_letters:
+    print("You already guessed this letter dummy\n")
+    continue
+  guessed_letters.append(guess)
+
   if len(guess) > 1:
     print("Your guess is too long")
   else:
@@ -40,6 +45,7 @@ while hangman_mechanics.game_not_won(user_answer, answer) and stage > 0:
       print(f"Wrong. You lose a life :)")
       print(hangman_art.stages[stage])
   print(user_answer)
+  print(f"\n{guessed_letters}")
   print('\n')
 
 if hangman_mechanics.game_not_won(user_answer, answer):
