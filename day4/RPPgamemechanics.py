@@ -18,6 +18,6 @@ def returnWinner(player1, player2):
       return "Scissors beats paper! You lose!"
   else: #player chose scissors
     if(player2 == 0):
-      print("Rock beats scissors! You lose!")
+      return "Rock beats scissors! You lose!"
     else:
-      print("Scissors beats paper! You win!")
+      return "Scissors beats paper! You win!"
