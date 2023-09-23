@@ -77,9 +77,11 @@ def play():
     blackjackmechanics.playersVsDealer(players_in, dealer)
     keepplaying = input("Want to keep playing? y or n: ")
     keep_playing = keepplaying == "y"
+    # reset game:
     if keep_playing:
       same_players = True
-
+      for player in players:
+        players[player]["Hand"] = []
 
 play()
 
