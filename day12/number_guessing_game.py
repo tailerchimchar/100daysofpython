@@ -22,13 +22,8 @@ while not found_number and counter < num_of_attempts:
 
 
 if found_number:
-  print("You found the number!")
+  print(f"You found the number! The number was {random_number}")
 else:
-  print("You did not find the number!")
-
-  
-  
-
-
+  print(f"You did not find the number! The number was {random_number}")
 
 print(random_number)
