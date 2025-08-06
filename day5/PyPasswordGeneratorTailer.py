@@ -35,4 +35,12 @@ for num in range(0, length_of_list):
   hard_password+=charFromList
   password_char_list.remove(charFromList)
 
+def __init__():
+  pass
+
+def get_hard_password():
+  print("HELLLO")
+  
+
+
 print(f"Your new hard password is: {hard_password}")

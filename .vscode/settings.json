@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./day13-debugging/test_"
+    ]
+}
